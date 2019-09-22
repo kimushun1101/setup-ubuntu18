@@ -4,6 +4,12 @@ setup for ubuntu 18.04
 
 ## Contents
 
+### install_all.sh
+
+Run all install shell scripts.
+
+### 1_install_settings.sh
+
 - Folder names is in English.
 - Caps Lock Key become Ctrl key.
 - apt server is setup.
@@ -13,6 +19,10 @@ setup for ubuntu 18.04
 - paste symbolic links for vim, bash, and xmodmap.
 - make a vimbackup directory.
 - provide dotfailes.
+
+### 2_install_ros2.sh
+
+Install ros2 environment.
 
 ## Manually setup (optionally)
 
