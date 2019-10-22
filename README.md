@@ -18,7 +18,7 @@ Run all install shell scripts.
 - copy terminator config.
 - paste symbolic links for vim, bash, and xmodmap.
 - make a vimbackup directory.
-- provide dotfailes.
+- provide dotfiles.
 
 ### 2_install_ros2.sh
 
