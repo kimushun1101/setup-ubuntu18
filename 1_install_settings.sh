@@ -21,3 +21,4 @@ ln -s .setup/Xmodmap ~/.Xmodmap
 
 source ~/.bashrc
 ~/.setup/startup.sh
+gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
