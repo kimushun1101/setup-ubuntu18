@@ -10,7 +10,8 @@ sudo apt autoremove -y
 sudo apt install -y vim terminator
 mkdir ~/.vimbackup
 
-cp -f terminator_config ~/.config/terminator/config
+# mkdir -p ~/.config/terminator
+# cp -f terminator_config ~/.config/terminator/config
 
 mv ~/setup-ubuntu18 ~/.setup
 ln -s .setup/vimrc ~/.vimrc
