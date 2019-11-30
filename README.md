@@ -24,6 +24,12 @@ Run all install shell scripts.
 
 Install ros2 environment.
 
+### set_git_config.sh
+
+To edit this file for GIT global setting.
+Replace User Name and the email address infomation for you.
+Then, run it.
+
 ## Manually setup (optionally)
 
 - Import keymap.txt from Mozc settings.  
