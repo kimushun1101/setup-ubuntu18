@@ -21,3 +21,6 @@ ln -s .setup/bash_aliases ~/.bash_aliases
 source ~/.bashrc
 ~/.setup/startup.sh
 gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
+
+gsettings set org.gnome.desktop.interface clock-show-date true
+gsettings set org.gnome.desktop.interface clock-show-seconds true
