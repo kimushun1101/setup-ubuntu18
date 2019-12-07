@@ -11,13 +11,14 @@ Run all install shell scripts.
 ### 1_install_settings.sh
 
 - Folder names is in English.
-- Caps Lock Key becomes Ctrl key.
 - apt server is setup.
 - apt uptade & upgrade & autoremove.
 - Install vim & terminator.
 - Paste symbolic links for vim and bash.
 - Make a vimbackup directory.
 - Provide dotfiles.
+- Caps Lock Key becomes Ctrl key.
+- clock shows date and seconds.
 
 ### 2_set_git_config.sh
 
