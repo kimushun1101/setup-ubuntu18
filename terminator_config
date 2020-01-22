@@ -1,7 +1,6 @@
 [global_config]
-  hide_from_taskbar = True
+  geometry_hinting = True
   sticky = True
-  window_state = maximise
 [keybindings]
   hide_window = <Primary>bracketright
 [layouts]
