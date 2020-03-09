@@ -10,15 +10,12 @@ Run all install shell scripts.
 
 ### 1_install_settings.sh
 
-- Folder names is in English.
 - apt server is setup.
 - apt uptade & upgrade & autoremove.
-- Install vim & terminator.
+- Install vim
 - Paste symbolic links for vim and bash.
 - Make a vimbackup directory.
 - Provide dotfiles.
-- Caps Lock Key becomes Ctrl key.
-- clock shows date and seconds.
 
 ### 2_set_git_config.sh
 
@@ -34,9 +31,3 @@ Install ros environment.
 
 Install ros2 environment.
 
-## Manually setup (optionally)
-
-- Import keymap.txt from Mozc settings.  
-The input type (Japanese or English) can be switched by Henkan or Muhenkan key.  
-"keymap.txt" exists in ~/.setup/keymap.txt after running "1_install_settings.sh." If ".setup" directory is not appeared, press Ctrl-h.
-- Put Win-key, input "session", and select the app. Then, set "startup.sh" in the app.
