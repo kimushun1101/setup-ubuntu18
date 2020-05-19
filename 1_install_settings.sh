@@ -17,6 +17,8 @@ mv ~/setup-ubuntu18 ~/.setup
 ln -s .setup/vimrc ~/.vimrc
 ln -s .setup/gvimrc ~/.gvimrc
 ln -s .setup/bash_aliases ~/.bash_aliases
+ln -s .setup/Xmodmap ~/.Xmodmap
+echo "xmodmap ~/.Xmodmap" >> ~/.bashrc
 
 source ~/.bashrc
 gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
