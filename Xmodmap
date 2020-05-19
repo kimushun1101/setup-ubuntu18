@@ -8,5 +8,5 @@ keycode 46 = l L Right Right
 keycode 46 = l L Right Right
 keycode 57 = n N BackSpace BackSpace
 keycode 58 = m M Delete Delete
-keycode 65 = space space Zenkaku_Hankaku Zenkaku_Hankaku
+keycode 65 = space space Muhenkan Muhenkan
 
