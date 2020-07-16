@@ -2,7 +2,7 @@
   geometry_hinting = True
   sticky = True
 [keybindings]
-  hide_window = <Primary>bracketright
+  hide_window = <Primary>semicolon
 [layouts]
   [[default]]
     [[[child1]]]
