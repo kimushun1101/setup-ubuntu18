@@ -1,4 +1,7 @@
 #!/bin/sh
+read -p "Did you import Mozc Property? (y/N): " yn
+case "$yn" in [yY]*) ;; *) echo "abort." ; exit ;; esac
+
 cd `dirname $0`
 
 sudo apt update
@@ -7,7 +10,7 @@ xdg-open https://www.google.com/chrome/
 xdg-open https://code.visualstudio.com/docs/?dv=linux64_deb
 xdg-open https://slack.com/intl/ja-jp/downloads/linux
 
-sudo apt install -y vim
+sudo apt install -y vim xsel
 mkdir ~/.vimbackup
 
 # install Docker
@@ -23,7 +26,7 @@ mkdir -p ~/.config/terminator
 cp -f terminator_config ~/.config/terminator/config
 
 # install xcape
-sudo apt install -y xsel gcc make pkg-config libx11-dev libxtst-dev libxi-dev
+sudo apt install -y gcc make pkg-config libx11-dev libxtst-dev libxi-dev
 git clone https://github.com/alols/xcape.git
 cd xcape/
 make
